@@ -45,7 +45,7 @@ Type help or a question mark "?" to see the list of all available commands you c
 
 ![Alt text](img/img7.png)
 Following command is executed for scanning the systems on our local area network with a TCP scan (-sT) looking for open ports between 1 and 1000 (-p1-1000).
-msf >  nmap -sT 192.168.1810/24 -p1-1000
+msf >  nmap -sT 192.168.228.34/24 -p1-1000
 ## OUTPUT:
 
 ![Alt text](img/img8.png)
@@ -53,7 +53,7 @@ msf >  nmap -sT 192.168.1810/24 -p1-1000
 use the db-nmap command to scan and save the results into Metasploit's postgresql attached database. In that way, you can use those results in the exploitation stage later.
 
 scan the targets with the command db_nmap as follows.
-msf > db_nmap 192.168.181.0/24
+msf > db_nmap 192.168.228.34/24
 ## OUTPUT:
 
 ![Alt text](img/img9.png)
